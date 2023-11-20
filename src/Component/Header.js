@@ -1,10 +1,23 @@
-import logo from "../icons_assets/Logo.svg";
+import banner from "../icons_assets/restauranfood.jpg";
 
 const Header = () => {
   return (
-    <>
-      <img src={logo} alt="little lemon logo" />
-    </>
+    <header>
+      <section>
+        <div>
+          <h2>Little Lemon</h2>
+          <h3>Chicago</h3>
+          <p>
+            We are a family owned Mediterranean restaurant, focused on
+            traditional recipes served with a modern twist.
+          </p>
+          <button>Reserve Table</button>
+        </div>
+        <div>
+          <img src={banner} alt="banner 1" width={250} height={200} />
+        </div>
+      </section>
+    </header>
   );
 };
 export default Header;

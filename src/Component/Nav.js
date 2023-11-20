@@ -1,6 +1,16 @@
+import logo from "../icons_assets/Logo.svg";
+
 const Nav = () => {
   return (
-    <>
+    <nav>
+      <a href="/">
+        <img src={logo} alt="little lemon logo" />
+      </a>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <ul>
         <li>
           <a href="#">Home</a>
@@ -21,7 +31,7 @@ const Nav = () => {
           <a href="#">Login</a>
         </li>
       </ul>
-    </>
+    </nav>
   );
 };
 export default Nav;
