@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../icons_assets/restauranfood.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,7 +13,9 @@ const Header = () => {
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          <button>Reserve Table</button>
+          <Link to="/booking">
+            <button aria-label="On Click">Reserve Table</button>
+          </Link>
         </div>
         <div className="banner-img">
           <img src={banner} alt="banner 1" />
