@@ -1,10 +1,11 @@
+import React from "react";
 import banner from "../icons_assets/restauranfood.jpg";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <section>
-        <div>
+        <div className="banner">
           <h2>Little Lemon</h2>
           <h3>Chicago</h3>
           <p>
@@ -13,8 +14,8 @@ const Header = () => {
           </p>
           <button>Reserve Table</button>
         </div>
-        <div>
-          <img src={banner} alt="banner 1" width={250} height={200} />
+        <div className="banner-img">
+          <img src={banner} alt="banner 1" />
         </div>
       </section>
     </header>

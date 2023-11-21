@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer>
         <section>
-          <div>
+          <div className="company-info">
             <img src={logo} alt="" />
             <p>
               We are a family owned Mediterranean restaurant, focused on
